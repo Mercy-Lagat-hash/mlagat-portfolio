@@ -86,9 +86,19 @@ html {
   margin: 20px auto; /* center if you want */
 }
 #dancingImage {
-  width: 180px;              /* keep it small */
-  transition: transform 0.3s ease-in-out; /* smooth rocking */
+  width: 180px;
+  animation: dance 0.8s infinite alternate ease-in-out;
 }
+
+@keyframes dance {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
  /*about me section*/
   .aboutMeAndSkills {
     display: flex;
