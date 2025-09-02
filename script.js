@@ -1,4 +1,4 @@
-window.onload = () => {
+
   let rotateFactor = 0;
   const modalImage = document.getElementById("dancingImage");
 
@@ -10,4 +10,4 @@ window.onload = () => {
 
   // Run forever every 400ms
   setInterval(animateImage, 400);
-};
+
