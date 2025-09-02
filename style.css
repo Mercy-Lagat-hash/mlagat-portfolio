@@ -43,11 +43,12 @@ html {
   .hero {
   display: flex;
   align-items: center;
+    flex-wrap: wrap;
   gap: 2rem;
   text-align: left;
   padding: 5rem 2rem;
   color: white;
-
+backround-size:cover;
   background: url('images/econBackground.png');
 }
 
