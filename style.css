@@ -87,19 +87,9 @@ html {
 }
 #dancingImage {
   width: 180px;
-  animation: dance 0.8s infinite alternate ease-in-out;
+  transition: transform 0.4s ease-in-out;
 }
-
-@keyframes dance {
-  from {
-    transform: rotate(-10deg);
-  }
-  to {
-    transform: rotate(10deg);
-  }
-}
-
- /*about me section*/
+/*about me section*/
   .aboutMeAndSkills {
     display: flex;
     justify-content: space-evenly;
