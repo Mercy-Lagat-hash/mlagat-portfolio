@@ -46,9 +46,11 @@ html {
   gap: 2rem;            /* Space between image and text */
   text-align: left;     /* Align text to the left */
   padding: 5rem 2rem;
-  background: linear-gradient(to right, #02220d, #78e1a7);
-  color: white;
-  background-image:url('images/econBackground.png');
+  background: 
+    linear-gradient(to right, #02220d, #78e1a7),
+    url('images/econBackground.png');
+  background-size: cover;   /* scale image to cover */
+  background-position: center;
   }
   .hero h1 {
     font-size: 3rem;
