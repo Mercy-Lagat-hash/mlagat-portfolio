@@ -85,6 +85,10 @@ html {
   display: block;
   margin: 20px auto; /* center if you want */
 }
+#dancingImage {
+  transition: transform 0.3s ease-in-out;
+}
+
   /*about me section*/
   .aboutMeAndSkills {
     display: flex;
