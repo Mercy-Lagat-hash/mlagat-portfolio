@@ -79,6 +79,13 @@ html {
   .hero button:hover {
     background-color: #e0e0e0;
   }
+.modal-image {
+    width: 250px;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 20px;
+
+  }
   /*about me section*/
   .aboutMeAndSkills {
     display: flex;
