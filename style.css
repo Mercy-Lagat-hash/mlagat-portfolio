@@ -48,9 +48,7 @@ html {
   padding: 5rem 2rem;
   color: white;
 
-  background: 
-    linear-gradient(to right, #02220d, #78e1a7) left center / 50% 100% no-repeat,
-    url('images/econBackground.png') right center / 50% 100% no-repeat;
+  background: url('images/econBackground.png');
 }
 
   .hero h1 {
