@@ -79,13 +79,12 @@ html {
   .hero button:hover {
     background-color: #e0e0e0;
   }
-.modal-image {
-    width: 250px;
-    height: 100%;
-    object-fit: contain;
-    border-radius: 20px;
-
-  }
+#modal-image img {
+  width: 200px;   /* adjust size */
+  height: auto;   /* keeps proportions */
+  display: block;
+  margin: 20px auto; /* center if you want */
+}
   /*about me section*/
   .aboutMeAndSkills {
     display: flex;
