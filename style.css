@@ -48,6 +48,7 @@ html {
   padding: 5rem 2rem;
   background: linear-gradient(to right, #02220d, #78e1a7);
   color: white;
+  background-image:url('images/econBackground.png');
   }
   .hero h1 {
     font-size: 3rem;
